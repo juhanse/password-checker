@@ -13,7 +13,7 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "passwordChecker.js",
+  "main": "src/passwordChecker.js",
   "scripts": {
     "test": "jasmine"
   },

@@ -1,4 +1,4 @@
-import { PasswordChecker } from "../passwordChecker.js";
+import { PasswordChecker } from "../src/passwordChecker.js";
 
 describe("Password validation", () => {
 	const fonction = new PasswordChecker();
