@@ -7,8 +7,8 @@ The project is a password checker made with a pipeline using TDD (Test-Driven De
 
 
 ## 💻 Commands :
-Installer les dépendances :
+1️⃣ Install dependencies :
 `npm install`
 
-Effectuer les tests (Jasmine) :
+2️⃣ Run test with Jasmine :
 `npm test`
