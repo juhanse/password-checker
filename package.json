@@ -1,14 +1,14 @@
 {
-  "name": "exam",
+  "name": "Password Checker",
   "version": "1.0.0",
-  "description": "Hanse Julien",
-  "homepage": "https://github.com/juhanse/IPL-social#readme",
+  "description": "TDD project with Jasmine",
+  "homepage": "https://github.com/juhanse/password-checker#readme",
   "bugs": {
-    "url": "https://github.com/juhanse/IPL-social/issues"
+    "url": "https://github.com/juhanse/password-checker/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juhanse/IPL-social.git"
+    "url": "git+https://github.com/juhanse/password-checker.git"
   },
   "license": "ISC",
   "author": "",
