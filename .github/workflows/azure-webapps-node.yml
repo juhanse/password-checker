@@ -1,0 +1,27 @@
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: '20.x'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install depencies
+      run: npm install
+    - name: Starting pipeline
+      run: echo "Pipeline started at $(date)"
+    - name: Test with Jasmine
+      run: npm run test
+    - name: Display end of pipeline
+      run: echo "Pipeline ended at $(date)"
+    - name: Success message
+      run: echo "PIPELINE SUCCESS"

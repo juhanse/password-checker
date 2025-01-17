@@ -1,0 +1,23 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "Hanse Julien",
+  "homepage": "https://github.com/juhanse/IPL-social#readme",
+  "bugs": {
+    "url": "https://github.com/juhanse/IPL-social/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juhanse/IPL-social.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "passwordChecker.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "devDependencies": {
+    "jasmine": "^5.5.0"
+  }
+}
