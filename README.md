@@ -1,14 +1,14 @@
-# Julien Hanse
-`julien.hanse@student.vinci.be`
+# Password Checker
 
-## 🗂️ Lien du dépôt Git :
-`https://github.com/juhanse/IPL-social`
+This project was carried out as part of a DevOps project management exam. 
 
-### Ce projet consiste à réaliser un vérificateur de mot de passe pour le site web de l’IPL.
+The project is a password checker made with a pipeline using TDD (Test-Driven Development) with Jasmine unit tests.
 
-## 💻 Commande :
+
+
+## 💻 Commands :
 Installer les dépendances :
 `npm install`
 
 Effectuer les tests (Jasmine) :
-`npm run test`
+`npm test`
