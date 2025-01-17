@@ -1,10 +1,25 @@
 export class PasswordChecker {
-	isValid(password) {
-		if (password.length < 8) return false;
-		if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) return false;
-		if (!/\d/.test(password)) return false;
-		if (/ipl/i.test(password)) return false;
+	isType(password) {
+		return password && typeof password === 'string';
+	}
 
-		return true;
+	hasLength(password) {
+		return password.length >= 8;
+	}
+
+	hasSpecialChars(password) {
+		return /[!@#$%^&*(),.?":{}|<>]/.test(password);
+	}
+
+	hasNumbers(password) {
+		return /\d/.test(password);
+	}
+
+	hasIPL(password) {
+		return /ipl/i.test(password);
+	}
+
+	isValid(password) {
+		return this.isType(password) && this.hasLength(password) && this.hasSpecialChars(password) && this.hasNumbers(password) && !this.hasIPL(password);
 	}
 }
