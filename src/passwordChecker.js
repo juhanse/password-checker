@@ -4,7 +4,7 @@ export class PasswordChecker {
 	}
 
 	hasLength(password) {
-		return password.length >= 8;
+		return password.trim().length >= 8;
 	}
 
 	hasSpecialChars(password) {
