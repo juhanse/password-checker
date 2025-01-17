@@ -1,6 +1,6 @@
 export class PasswordChecker {
 	isType(password) {
-		return password && typeof password === 'string';
+		return typeof password === 'string' && password.trim().length > 0;
 	}
 
 	hasLength(password) {
